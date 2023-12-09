@@ -28,3 +28,4 @@ def test_multiple_perimeters(
     expected_perimeter : float
 ) -> None :
     assert shapes.Square(side_length=side_length).perimeter() == expected_perimeter
+    
